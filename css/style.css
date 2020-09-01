@@ -64,3 +64,11 @@ justify-content: space-between;
      display: inline-block;
      padding: 0 0 5px 1px;
 }
+
+.coming-links {
+    border: 1px;
+}
+
+.footer .main {
+    border: 1px;
+}
