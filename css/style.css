@@ -1,0 +1,66 @@
+/*.ds-flex {
+    display: flex;
+    font-size: medium;
+    font-weight: bold;
+    background-color: black;
+}
+*/
+.ds-flex {
+    display: flex;
+}
+
+
+
+
+
+ul.ds-flex {
+list-style: none;
+padding:20px;
+justify-content: space-between;
+}
+
+.logo-header {
+    width: 60px;
+}
+
+.nav-bar {
+    background-color: black;
+    color: white;
+    padding: 0 5px;
+}
+
+
+
+.ds-grid {
+    display: grid;
+    }
+
+
+.ds-container{
+    grid-template: repeat(2, 1fr) / repeat(2, 1fr);
+    align-self: center;
+}
+
+.grid-center {
+    height: 60px;
+    width: 80%;
+    height: 80px;
+    align-items: center;
+}
+
+
+
+.header-div1
+.header-div2
+.header-div3 {
+    background-color: gray;
+    border-color: 5px solid black;
+    height: 100px;
+}
+
+.comment-header {
+     font-size: 12px;
+     font-weight: bold;
+     display: inline-block;
+     padding: 0 0 5px 1px;
+}
