@@ -28,7 +28,6 @@ img {
 
 ul.ds-flex {
   list-style: none;
-  padding: 20px;
   justify-content: space-between;
   align-items: center;
 }
@@ -39,15 +38,8 @@ footer li {
 
 .ds-flex li {
   background-color: gray;
-  padding: 20px;
   font-size: 19px;
   font-weight: bold;
-}
-
-.grid-center {
-  width: 80%;
-  height: 80px;
-  align-items: center;
 }
 
 .nav-bar {
@@ -58,18 +50,16 @@ footer li {
 }
 
 .logo-header {
-    width:50px;
-    height:auto;
+  width: 50px;
+  height: auto;
 }
 
 .title-h1 {
   color: black;
   position: absolute;
-  width: 100%;
   font-family: Arial, Helvetica, sans-serif;
   font-weight: bolder;
   font-style: oblique;
-  text-align: center;
   line-height: 50px;
 }
 
@@ -80,7 +70,6 @@ footer li {
 }
 
 .ds-grid {
-  display: grid;
   grid-template-columns: 1fr 1fr;
   grid-template-rows: 1fr 1fr;
   align-self: center;
@@ -124,6 +113,8 @@ footer li {
 }
 
 .img-writer img {
+  -webkit-filter: grayscale(100%);
+  filter: grayscale(100%);
   border-radius: 11%;
   border: 4px solid white;
   width: 20%;
@@ -151,15 +142,64 @@ footer li {
   margin: 20px;
 }
 
+.back-gray {
+  background: gray;
+}
+
+.light-gray {
+  background: lightgray;
+}
+
+.mrg-10 {
+  margin: 10px;
+}
+
+.dp-grid {
+  display: grid;
+}
+
+.w-100 {
+  width: 100%;
+}
+
+.txt-center {
+  text-align: center;
+}
+
+.bck-black {
+  background: black;
+}
+
+.bck-lightla {
+  background: lightslategray;
+}
+
+.pad-20 {
+  padding: 20px;
+}
+
+.mg-auto {
+  margin: 0 auto;
+}
+
+.mgb-20 {
+  margin-bottom: 20px;
+}
+
+.img-rt {
+  transform: rotate(-15deg);
+}
+
+.w-80 {
+  width: 80%;
+}
+
 .coming-links {
   border: 1px;
 }
 
 .latest-post {
   grid-template-columns: auto auto auto;
-  display: grid;
-  width: 100%;
-  margin-bottom: 20px;
 }
 
 .latest-post-item {
@@ -170,44 +210,25 @@ footer li {
 
 .small-title-latest-one {
   width: 20%;
-  margin: 10px;
-  background: lightslategray;
   height: 15px;
 }
 
 .title-latest-one {
-  width: 80%;
-  margin: 10px;
-  background: black;
   height: 30px;
 }
 
 .subtitle-latest-one {
   width: 50%;
-  background: gray;
   height: 25px;
-  margin: 10px;
-}
-
-.content-latest-one {
-  margin: 10px;
-}
-
-footer p {
-  text-align: center;
 }
 
 .content-latest-one p {
   height: 20px;
   margin-top: 2px;
-  background: lightgray;
 }
 
 .inside-latest-post {
-  width: 100%;
-  display: grid;
   grid-template-columns: 33.3% 66.6%;
-  margin-bottom: 20px;
 }
 
 .inside-latest-left {
@@ -216,7 +237,6 @@ footer p {
 }
 
 .inside-latest-left p {
-  background: lightgray;
   width: 40%;
   height: 15px;
   margin: 10px auto;
@@ -225,9 +245,7 @@ footer p {
 .inside-sign-up {
   border-radius: 25px;
   border: 1px solid gray;
-  margin: 10px;
   height: 200px;
-  background: lightgray;
 }
 
 .inside-latest-right {
@@ -238,41 +256,27 @@ footer p {
 .inside-latest-right-box {
   border-radius: 25px;
   border: 1px solid gray;
-  margin: 10px;
   height: 500px;
-  background: lightgray;
 }
 
 .middle {
-  width: 100%;
-  background: lightgray;
   margin: 50px 0;
   padding: 50px 0;
 }
 
 .middle h3 {
-  text-align: center;
   padding: 50px;
 }
 
 .middle p {
-  text-align: center;
-  background: lightslategray;
   width: 50%;
-  margin: 0 auto;
-  padding: 20px;
 }
 
 .middle h2 {
-  text-align: center;
-  background: gray;
   width: 50%;
-  margin: 0 auto;
-  padding: 20px;
 }
 
 .middle-btn {
-  display: flex;
   justify-content: center;
   padding: 50px;
 }
@@ -280,92 +284,57 @@ footer p {
 .middle-photo {
   width: 600px;
   height: 300px;
-  background: black;
-  margin: 0 auto;
 }
 
 .community-links {
-  background: lightgray;
   margin: 50px 0;
   padding: 50px 0;
 }
 
 .community-links-first {
-  width: 100%;
-  background: lightgray;
-  display: grid;
   grid-template-columns: 20% 80%;
 }
 
 .first-photo {
-  background: black;
-  transform: rotate(-15deg);
   height: 200px;
   width: 200px;
   margin: 30px;
 }
 
-.first-content {
-  margin: 10px;
-}
-
 .first-content h3 {
-  background: gray;
   width: 300px;
 }
 
-.first-content p {
-  background: gray;
-}
-
 .community-link {
-  display: grid;
   grid-template-columns: 50% 50%;
-  background: lightgray;
 }
 
 .community-link-item {
-  display: grid;
   grid-template-columns: 20% 75%;
-  background: gray;
-  margin: 10px;
 }
 
 .community-link-photo {
   width: 70px;
   height: 70px;
-  background: black;
-  transform: rotate(-15deg);
   margin: 30px;
 }
 
 .before-book h3 {
-  text-align: center;
   padding: 50px;
 }
 
 .book {
-  background: lightslategray;
   width: 100%;
-  display: flex;
   padding-bottom: 50px;
-  margin-bottom: 20px;
-}
-
-.book-content {
-  width: 80%;
-  padding: 20px;
 }
 
 .book-photo {
   width: 150px;
   height: 200px;
-  background: black;
   transform: rotate(-15deg);
 }
 
 .our-guides {
-  display: grid;
   grid-template-columns: repeat(2, 1fr);
   grid-gap: 10px;
   margin-bottom: 20px;
@@ -373,24 +342,18 @@ footer p {
 
 .guide {
   background: gray;
-  padding: 20px;
   height: 500px;
   margin: 20px;
 }
 
 footer {
   padding: 20px 0;
-  background: lightslategray;
 }
 
 footer ul {
-  background: gray;
-  text-align: center;
   list-style-type: disc;
   list-style-position: inside;
   padding: 0;
-  width: 80%;
-  margin: 0 auto;
 }
 
 footer li::before {
@@ -401,10 +364,8 @@ footer li::before {
 
 .copywrite {
   width: 70%;
-  display: flex;
   justify-content: space-around;
   margin: 0 auto;
-  background: gray;
 }
 
 .copywrite p {
@@ -414,5 +375,4 @@ footer li::before {
 .foot-figure {
   width: 100px;
   height: 100px;
-  background: black;
 }
