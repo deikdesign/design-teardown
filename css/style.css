@@ -1,22 +1,43 @@
-/*.ds-flex {
-    display: flex;
-    font-size: medium;
-    font-weight: bold;
-    background-color: black;
+body {
+    max-width: 200rem;
 }
-*/
+
+html {
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+    line-height: 35px;
+}
+
+h1 {
+    font-size: 50px;
+}
+
+h2 {
+    font-size: 40px ;
+    line-height: 38px;
+}
+
+img {
+    max-width: 100%;
+    height:auto;
+}
+
 .ds-flex {
     display: flex;
 }
-
-
-
-
 
 ul.ds-flex {
 list-style: none;
 padding:20px;
 justify-content: space-between;
+align-items:center;
+}
+
+.ds-flex li {
+    background-color: gray;
+    padding: 20px;
+    font-size: 19px;
+    font-weight: bold;
 }
 
 .logo-header {
@@ -26,11 +47,137 @@ justify-content: space-between;
 .nav-bar {
     background-color: black;
     color: white;
-    padding: 0 5px;
+    padding: 0px 30px 0px 30px;
+    border-radius: 4px;
+}
+
+
+.title-h1 {
+    color:black;
+    position:absolute;
+    width: 100%;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bolder;
+    font-style:oblique;
+    text-align: center;
+    line-height: 50px;
+}
+
+.color-br {
+    background-color:white;
+    padding: 0px 30px 0px 30px;
+    border-radius: 4px;
+}
+
+.ds-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    align-self: center;
+    border-color: 1px solid red;
+    }
+
+/*
+.grid-container {
+    height: 70rem;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    justify-items: center;
+    border: solid 1px blue;
+}
+*/
+.grid-container {
+    height: 40rem;
+
+}
+
+.grid-container-low {
+height: 35rem;
+}
+
+.padding-header {
+padding: 200px 20px;
+}
+
+.padding-low {
+    padding: 80px 40px;
+}
+
+.container-1,.container-4 {
+    background-color: dimgray;
+    border: solid 1px blue;
+
+}
+
+.container-2 {
+    background-color:darkgray;
+    border: solid 1px blue;
+
+}
+
+.container-3 {
+        background-color:lightgray;
+        padding: 0 20px;
+        border: solid 1px blue;
+    }
+
+.container-text {
+    color: white;
+    width:70%;
+    height: 30px;
+    margin: 0px 50px 0px 50px;
+}
+
+.img-writer img{
+    border-radius: 11%;
+    border: 4px solid white;
+    width: 20%;
+    margin-right:2rem;
+    transform: rotate(-15deg);
+}
+
+.comment-header {
+    font-weight: bold;
+    font-size: 16px;
+    display:inline-block;
+    vertical-align: 5px;
+    margin-left: 20px;
+}
+.comment-header h2 {
+    line-height: 20px;
+}
+
+.comment-header i {
+    margin-right: 15px;
 }
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/////////////////////////////////
+
+/*
 .ds-grid {
     display: grid;
     }
@@ -72,3 +219,4 @@ justify-content: space-between;
 .footer .main {
     border: 1px;
 }
+*/
