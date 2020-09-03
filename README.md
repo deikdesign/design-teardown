@@ -4,7 +4,7 @@
 
 > Design an User Experience page.
 
-![screenshot](./images/ux_screenshot.jpg)
+![screenshot](./images/ux_screenshot.JPG)
 
 We build a UX webpage with header, nav bar, body and footer section.
 
